@@ -117,8 +117,8 @@ class Image():
         for i in range(0, len(movements), 1):
             string += movements[i] + '. '
 
-        print ('Available Movements: ')
-        print (string)
+
+        return movements
 
     def swap_images(self, direction):
         if direction == 'Left':
@@ -251,6 +251,9 @@ class Image():
                     j += 1
 
         print ('Done!')
+
+
+
 
     def get_rows(self):
         return self.__rows
