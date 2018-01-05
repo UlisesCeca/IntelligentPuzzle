@@ -42,8 +42,8 @@ class Node:
             if times[i] < smallest:
                 smallest = times[i]
 
-        print "\n\nSmallest time for Stacks: " + str(smallest) + "\nBiggest time for Stacks: " + str(biggest) +\
-              "\nAverage for Stacks: " + str(average)
+        print ("\n\nSmallest time for Stacks: " + str(smallest) + "\nBiggest time for Stacks: " + str(biggest) +\
+              "\nAverage for Stacks: " + str(average))
 
     def queues(self):
         cola = dq.deque()
@@ -78,8 +78,8 @@ class Node:
             if times[i] < smallest:
                 smallest = times[i]
 
-        print "\n\nSmallest time for Queues: " + str(smallest) + "\nBiggest time for Queues: " + str(biggest) + \
-                "\nAverage for Queues: " + str(average)
+        print ("\n\nSmallest time for Queues: " + str(smallest) + "\nBiggest time for Queues: " + str(biggest) + \
+                "\nAverage for Queues: " + str(average))
 
 
     def arrays(self):
@@ -113,8 +113,8 @@ class Node:
             if times[i] < smallest:
                 smallest = times[i]
 
-        print "\n\nSmallest time for Arrays: " + str(smallest) + "\nBiggest time for Arrays: " + str(biggest) + \
-              "\nAverage for Arrays: " + str(average)
+        print ("\n\nSmallest time for Arrays: " + str(smallest) + "\nBiggest time for Arrays: " + str(biggest) + \
+              "\nAverage for Arrays: " + str(average))
 
     def dictionaries(self):
         diccionario = {}
@@ -148,8 +148,8 @@ class Node:
             if times[i] < smallest:
                 smallest = times[i]
 
-        print "\n\nSmallest time for Dictionaries: " + str(smallest) + "\nBiggest time for Dictionaries: " + str(biggest) + \
-              "\nAverage for Dictionaries: " + str(average)
+        print ("\n\nSmallest time for Dictionaries: " + str(smallest) + "\nBiggest time for Dictionaries: " + str(biggest) + \
+              "\nAverage for Dictionaries: " + str(average))
 
 
     def main(self):
